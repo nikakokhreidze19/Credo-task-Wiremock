@@ -1,0 +1,7 @@
+<suite name="CredoTechnicalTask" verbose="1">
+    <test name="WiremockUserTest">
+        <classes>
+            <class name="UserTest"/>
+        </classes>
+    </test>
+</suite>

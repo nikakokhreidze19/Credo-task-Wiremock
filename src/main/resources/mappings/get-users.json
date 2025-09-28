@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/users"
+  },
+  "response": {
+    "status": 200,
+    "jsonBody": [
+      {
+        "id": "usr-001",
+        "fullName": "ალექსანდრე წერეთელი",
+        "role": "პროდუქტის მენეჯერი",
+        "status": "აქტიური"
+      },
+      {
+        "id": "usr-002",
+        "fullName": "ნინო გელაშვილი",
+        "role": "დეველოპერი",
+        "status": "შესვენებაზე"
+      },
+      {
+        "id": "usr-003",
+        "fullName": "გიორგი მჭედლიშვილი",
+        "role": "UX/UI დიზაინერი",
+        "status": "მიუწვდომელია"
+      }
+    ],
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
